@@ -25,7 +25,7 @@ assertEqual(2,1);
 
 
 
-assertEqual(eqArrays([1, 2, 3], [1, 2, '3']), true);
+assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
 
 
 
