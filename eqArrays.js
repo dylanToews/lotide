@@ -7,11 +7,16 @@ const assertEqual = function(actual, expected) {
 };
 
 
-
-const head = function(array) {
-  return array[0];
+const eqArrays = function(array1, array2) {
+  let isEqual = array1.length === array2.length &&
+  array1.every((value, index) => value === array2[index]);
+  return isEqual;
 };
 
 
-assertEqual(head([]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+assertEqual("Bootcamp", "Bootcamp");
+assertEqual(2,1);
+
+
+
+assertEqual(eqArrays([1, 2, 3], [1, 2, '3']), true);
