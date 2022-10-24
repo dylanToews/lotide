@@ -3,4 +3,4 @@ const head = require('../head.js');
 
 
 assertEqual(head([]), 5);
-assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
+assertEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello")
