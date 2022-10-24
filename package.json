@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@dylantoews/lotide",
+  "version": "1.0.4",
+  "description": "Built as a part of my lessons in Lighthouse Labs. Made to be a mini clone of the Lodash library ",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/dylanToews/lotide.git"
   },
-  "author": "",
+  "author": {
+    "name" : "Dylan Toews",
+    "email" : "dylan.toews@yahoo.ca"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dylanToews/lotide/issues"
