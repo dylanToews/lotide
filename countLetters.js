@@ -22,3 +22,5 @@ const countLetters = function(input) {
 console.log(countLetters("ABCDDD"));
 
 assertEqual(countLetters("ABCA"), {A: 2, B: 1, C: 1})
+
+module.exports = countLetters

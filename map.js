@@ -50,3 +50,6 @@ assertArraysEqual(results1, ['t', 'i', 'a', 'b']);
 assertArraysEqual(results2, [ 'to', 'infinity', 'and', 'beyond' ]);
 
 assertArraysEqual(results3, [ 2, 8, 3, 6 ]);
+
+
+module.exports = map;

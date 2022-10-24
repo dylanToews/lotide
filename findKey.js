@@ -56,3 +56,5 @@ const results1 = findKey({
 
 console.log(results1)
 
+module.exports = findKey;
+
