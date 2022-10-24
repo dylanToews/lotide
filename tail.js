@@ -2,8 +2,12 @@ const assertEqual = require('./assertEqual');
 
 
 const tail = function(array) {
-  return array.slice(1);
+  if(array.length <= 0){
+    return []
+  }
+  return array.slice(1)
 };
+
 
 module.exports = tail 
 
